@@ -1,0 +1,332 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "EPSG:4326"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "id": 1,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-113.561151999663, 43.4622940002811]
+        },
+        "properties": {
+          "Name": "Craters of the Moon National Monument and Preserve",
+          "Latitude": 43.4166,
+          "Longitude": -113.5173,
+          "Type": "Natural Formation",
+          "ObjectId": 1,
+          "Description": "A vast ocean of lava flows with scattered islands of cinder cones and sagebrush, it is a unique volcanic area."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 2,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-114.40079499959, 42.5951269998365]
+        },
+        "properties": {
+          "Name": "Shoshone Falls",
+          "Latitude": 42.5935,
+          "Longitude": -114.4072,
+          "Type": "Natural Formation",
+          "ObjectId": 2,
+          "Description": "Known as the 'Niagara of the West,' it is 212 feet high and one of the largest natural waterfalls in the United States."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 3,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-114.999999999762, 43.999999999853]
+        },
+        "properties": {
+          "Name": "Sawtooth National Recreation Area",
+          "Latitude": 44.1069,
+          "Longitude": -114.9298,
+          "Type": "Natural Formation",
+          "ObjectId": 3,
+          "Description": "A protected area offering breathtaking mountain views, hiking trails, and abundant wildlife."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 4,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-116.698380000001, 45.2407450000775]
+        },
+        "properties": {
+          "Name": "Hells Canyon National Recreation Area",
+          "Latitude": 45.3365,
+          "Longitude": -116.7158,
+          "Type": "Natural Formation",
+          "ObjectId": 4,
+          "Description": "The deepest river gorge in North America, known for its rugged landscapes and rich history."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 5,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-113.633061099704, 42.0915248997096]
+        },
+        "properties": {
+          "Name": "City of Rocks National Reserve",
+          "Latitude": 42.077,
+          "Longitude": -113.7093,
+          "Type": "Natural Formation",
+          "ObjectId": 5,
+          "Description": "Famous for its scenic granite spires and extensive rock climbing opportunities."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 6,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-114.367516699684, 43.6709251996904]
+        },
+        "properties": {
+          "Name": "Sun Valley Resort",
+          "Latitude": 43.6959,
+          "Longitude": -114.3535,
+          "Type": "Building",
+          "ObjectId": 6,
+          "Description": "A premier destination for skiing, hiking, and year-round recreation."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 7,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-115.715335600317, 42.911055999989]
+        },
+        "properties": {
+          "Name": "Bruneau Dunes State Park",
+          "Latitude": 42.8801,
+          "Longitude": -115.6969,
+          "Type": "Natural Formation",
+          "ObjectId": 7,
+          "Description": "Home to North America's tallest single-structured sand dune and a popular spot for stargazing."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 8,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.073556946661, 44.3053509468285]
+        },
+        "properties": {
+          "Name": "Yellowstone National Park (Idaho Entrance)",
+          "Latitude": 44.1803,
+          "Longitude": -111.217,
+          "Type": "Natural Formation",
+          "ObjectId": 8,
+          "Description": "Part of the iconic Yellowstone National Park, known for its geothermal features and diverse wildlife."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 9,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-113.894712000121, 45.1759019998294]
+        },
+        "properties": {
+          "Name": "Salmon Idaho",
+          "Latitude": 45.1758,
+          "Longitude": 113.8959,
+          "Type": "Building",
+          "ObjectId": 9,
+          "Description": "A historic town offering outdoor activities like fishing, rafting, and exploring the Lewis and Clark trail."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 10,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-114.921825500059, 42.7632462997538]
+        },
+        "properties": {
+          "Name": "Hagerman Fossil Beds National Monument",
+          "Latitude": 42.7785,
+          "Longitude": -114.9502,
+          "Type": "Natural Formation",
+          "ObjectId": 10,
+          "Description": "Renowned for its fossil beds, showcasing prehistoric plants and animals, including the Hagerman horse."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 11,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-113.781150000242, 44.1373500000769]
+        },
+        "properties": {
+          "Name": "Borah Peak",
+          "Latitude": 44.1371,
+          "Longitude": 113.7803,
+          "Type": "Natural Formation",
+          "ObjectId": 11,
+          "Description": "The highest peak in Idaho, popular for challenging climbs and breathtaking views."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 12,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-111.371096900033, 44.4238331997149]
+        },
+        "properties": {
+          "Name": "Island Park",
+          "Latitude": 44.4244,
+          "Longitude": -114.9261,
+          "Type": "Natural Formation",
+          "ObjectId": 12,
+          "Description": "A beautiful area known for its scenic landscapes, wildlife, and outdoor recreational activities."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 13,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-116.785758199727, 47.6734311002089]
+        },
+        "properties": {
+          "Name": "Lake Coeur d'Alene",
+          "Latitude": 47.5761,
+          "Longitude": -116.786,
+          "Type": "Natural Formation",
+          "ObjectId": 13,
+          "Description": "A stunning lake offering boating, fishing, and other water sports, surrounded by beautiful mountains."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 14,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-116.70546699972, 47.907912000128]
+        },
+        "properties": {
+          "Name": "Silverwood Theme Park",
+          "Latitude": 47.9053,
+          "Longitude": -116.7078,
+          "Type": "Building",
+          "ObjectId": 14,
+          "Description": "The largest theme park in the Pacific Northwest, featuring rides, shows, and a water park."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 15,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-116.822732599903, 46.4475669000139]
+        },
+        "properties": {
+          "Name": "Nez Perce National Historical Park",
+          "Latitude": 46.2296,
+          "Longitude": -116.2547,
+          "Type": "Natural Formation",
+          "ObjectId": 15,
+          "Description": "A park dedicated to preserving the history and culture of the Nez Perce tribe."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 16,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-114.453441700165, 42.6006233997915]
+        },
+        "properties": {
+          "Name": "Perrine Bridge",
+          "Latitude": 42.5958,
+          "Longitude": -114.4785,
+          "Type": "Building",
+          "ObjectId": 16,
+          "Description": "An iconic bridge spanning the Snake River, popular for BASE jumping and scenic views."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 17,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-116.226927038565, 43.4792567024652]
+        },
+        "properties": {
+          "Name": "Old Idaho Penitentiary",
+          "Latitude": 43.6023,
+          "Longitude": -116.1762,
+          "Type": "Building",
+          "ObjectId": 17,
+          "Description": "A historic prison that operated from 1872 to 1973, now a museum with exhibits on prison history."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 18,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-112.037882300065, 43.4904996999614]
+        },
+        "properties": {
+          "Name": "Museum of Idaho",
+          "Latitude": 43.4907,
+          "Longitude": -112.0358,
+          "Type": "Building",
+          "ObjectId": 18,
+          "Description": "A museum featuring exhibits on the history, science, and culture of Idaho and the surrounding region."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 19,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-116.187726100177, 43.6012162999597]
+        },
+        "properties": {
+          "Name": "Boise River Greenbelt",
+          "Latitude": 43.615,
+          "Longitude": -116.2023,
+          "Type": "Natural Formation",
+          "ObjectId": 19,
+          "Description": "A scenic 25-mile path along the Boise River, popular for biking, walking, and enjoying nature."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 20,
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-116.19976099982, 43.6176869997247]
+        },
+        "properties": {
+          "Name": "Idaho State Capitol",
+          "Latitude": 43.6178,
+          "Longitude": -116.1996,
+          "Type": "Building",
+          "ObjectId": 20,
+          "Description": "The seat of Idaho's government, a neoclassical building known for its stunning architecture and history."
+        }
+      }
+    ]
+  }
+  

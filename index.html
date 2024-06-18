@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idaho Landmarks Map</title>
+    <script src="https://js.arcgis.com/4.23/"></script>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.23/esri/themes/light/main.css">
+    <style>
+        html, body, #viewDiv {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        #filterDiv {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 99;
+            background: white;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div id="viewDiv"></div>
+    <div id="filterDiv">
+        <h3>Filter Landmarks</h3> <!-- Filters for the map that apply to the 'Type' property of idahostate_landmarks.geojson -->
+        <label for="typeSelect">Type:</label>
+        <select id="typeSelect">
+            <option value="all">All</option> <!-- Default Filter option-->
+            <option value="Natural Formation">Natural Formation</option>
+            <option value="Building">Building</option>
+        </select>
+        <button onclick="applyFilter()">Apply Filter</button>
+    </div>
+    <script> // JavaScript for the map and info displays on the webpage.
+        require([
+            "esri/Map",
+            "esri/views/MapView",
+            "esri/layers/GeoJSONLayer"
+        ], function(Map, MapView, GeoJSONLayer) {
+
+            // Object for basemap.
+            var map = new Map({
+                basemap: "topo-vector"
+            });
+
+            // Object for map location/default map position.
+            var view = new MapView({
+                container: "viewDiv",
+                map: map,
+                center: [-114.7420, 44.0682], // Longitude, latitude to center the map on Idaho
+                zoom: 6
+            });
+
+            // Information for location pop-up
+            var geojsonLayer = new GeoJSONLayer({
+                url: "idahostate_landmarks.geojson",
+                outFields: ["*"],
+                popupTemplate: {
+                    title: "{Name}",
+                    content: "{Description}"
+                }
+            });
+
+            // Information layer (idahostate_landmarks.geojson)
+            map.add(geojsonLayer);
+
+            // Function to run the filters
+            window.applyFilter = function() {
+                var type = document.getElementById('typeSelect').value;
+                if (type === "all") {
+                    geojsonLayer.definitionExpression = null;
+                } else {
+                    geojsonLayer.definitionExpression = "TRIM(Type) = '" + type + "'";
+                }
+            };
+        });
+    </script>
+</body>
+</html>
