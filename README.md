@@ -8,7 +8,7 @@ ChatGPT was used to generate a list of locations and led me through the process 
 
 I chose and created this project because I previosly had little experience in integrating high-level programming languages with webpages. Any webpages that I've created previously lacked backend code. Thanks to my experience in this project, I now have a deeper understanding of this integration.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=JYVdp7r96wA)
 
 # Development Environment
 
